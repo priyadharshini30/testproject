@@ -1,0 +1,41 @@
+import java.util.*;  
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.Set;
+
+String obfuscate(String input,Integer charOffset,Map<String,String>wordMap)
+{
+
+
+public class Test {  
+   public static void main(String args[]) {  
+   // create and populate hash map  
+   HashMap<String, String> wordMap = new HashMap<String, String>();           
+   map.put("1","Let");  
+   map.put("2", "Operating");  
+   map.put("3", "Data"); 
+	obfuscate(input,charOffset, 
+	System.out.println("enter the word");
+	Scanner s=new Scanner(System.in);
+	String x=s.next();
+	if(wordMap.containsValue(x))
+	{
+		for(Map.Entry entry: wordMap.entrySet())
+		{
+			if(value.equals(entry.getValue()))
+			{
+				key=entry.getkey();
+			}
+		}
+	System.out.println("got key from value in hashtable: "+key+" value "+value);
+	}
+	else
+	{
+		System.out.println("not present");
+	}
+	
+    
+   }      
+}  
